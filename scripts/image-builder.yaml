@@ -448,7 +448,7 @@ Resources:
         - Region: eu-north-1
           AmiDistributionConfiguration:
             Name: !Join
-              - '-'''
+              - '-'
               - - 'deepracer-ami-dist-config'
                 - '{{ imagebuilder:buildDate }}'
             AmiTags:
