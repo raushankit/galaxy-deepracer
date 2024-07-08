@@ -48,3 +48,6 @@ The following should be changed to enable OpenGL training with GPUs, to reduce C
 
 The following should be changed for SAC training_algorithm as it cannot use multiple workers: -
 * set `DR_WORKERS=1`
+
+# Galaxy Deepracer
+The following is the clone of the original repo with slight modifications in the variables
