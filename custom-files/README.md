@@ -51,3 +51,15 @@ The following should be changed for SAC training_algorithm as it cannot use mult
 
 # Galaxy Deepracer
 The following is the clone of the original repo with slight modifications in the variables
+
+### Raushan, Ankit
+
+Create standard instance
+```console
+./create-standard-instance.sh raushankit-base TRAINING-TSACK-NAME TIME-TO-LIVE
+```
+
+Create spot instance
+```console
+./create-spot-instance.sh raushankit-base TRAINING-TSACK-NAME TIME-TO-LIVE
+```
